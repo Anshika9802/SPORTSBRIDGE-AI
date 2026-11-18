@@ -1,0 +1,6 @@
+{
+  "name": "SportBridge AI",
+  "description": "AI-powered sports opportunity matching platform connecting young athletes with verified coaching, facilities, trials, competitions, and scholarships.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
