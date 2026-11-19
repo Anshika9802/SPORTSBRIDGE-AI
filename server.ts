@@ -38,14 +38,17 @@ import {
   parseNaturalLanguageQuery,
 } from './src/lib/gemini.ts';
 import {
-  AthleteMatchProfile,
   evaluateOpportunityMatch,
   evaluateScholarshipEligibility,
+} from './src/lib/matching.ts';
+import type {
+  AthleteMatchProfile,
   OpportunityType,
   ScoredOpportunity,
   SkillLevel,
 } from './src/lib/matching.ts';
-import { AuthRequest, optionalAuth, requireAuth } from './src/middleware/auth.ts';
+import { optionalAuth, requireAuth } from './src/middleware/auth.ts';
+import type { AuthRequest } from './src/middleware/auth.ts';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);

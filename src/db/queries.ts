@@ -13,7 +13,7 @@ import {
   trials,
   users,
 } from './schema.ts';
-import { OpportunityType } from '../lib/matching.ts';
+import type { OpportunityType } from '../lib/matching.ts';
 
 export async function getUserById(userId: number) {
   try {
